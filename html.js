@@ -1,5 +1,3 @@
-import { isArray } from './utils/index.js';
-
 export const getHtml = (...args) =>
     args.length == 1
         ? document.querySelector(args[0])
